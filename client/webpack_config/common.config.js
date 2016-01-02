@@ -14,12 +14,9 @@ module.exports = {
     //  './src/js/index'
     //],
     vendor: [
-      'react',
-      'redux',
-      'classnames',
-      'lodash',
-      'bootstrap/dist/css/bootstrap.css',
+      'es5-shim/es5-shim',
       'babel-polyfill',
+      'react',
     ]
   },
   output: {
